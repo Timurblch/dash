@@ -31,12 +31,12 @@ class EmployeesAddForm extends Component{
                         name="name"
                         value={name} 
                         onChange={this.onValueChange}/>
-                    <input type="number"
+                    {/* <input type="number"
                         className="form-control new-post-label"
                         placeholder="З/П в $?"
                         name="salary"
                         value={salary} 
-                        onChange={this.onValueChange}/>
+                        onChange={this.onValueChange}/> */}
     
                     <button type="submit"
                             className="btn btn-outline-light">Добавить</button>
